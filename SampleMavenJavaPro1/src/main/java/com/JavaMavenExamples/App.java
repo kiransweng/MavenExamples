@@ -10,7 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
 
-        final String str = "Hello!";
+        final String str = "HelloIam";
         App appObject = new App();
         System.out.println("The reverse string of \"" + str + "\" is \"" +
                 appObject.reverseString(str) + "\"");
@@ -18,7 +18,6 @@ public class App
 
     public String reverseString(String src) {
         return new StringBuilder(src).reverse().toString();
-
     }
 
 
