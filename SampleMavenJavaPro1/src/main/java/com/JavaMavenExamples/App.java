@@ -10,7 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
 
-        final String str = "HelloIamDONE";
+        final String str = "HelloIam";
         App appObject = new App();
         System.out.println("The reverse string of \"" + str + "\" is \"" +
                 appObject.reverseString(str) + "\"");
